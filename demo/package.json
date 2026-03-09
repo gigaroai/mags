@@ -1,0 +1,11 @@
+{
+  "name": "cortex-demo-clients",
+  "private": true,
+  "scripts": {
+    "overwatch": "node overwatch.js",
+    "overwatch:local": "CORTEX_URL=ws://localhost:4000/cortex/ws AGENT_TOKEN=overwatch-alpha-CHANGEME node overwatch.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}

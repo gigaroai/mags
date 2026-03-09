@@ -1,0 +1,28 @@
+# Build artifacts
+_build/
+deps/
+node_modules/
+.elixir_ls/
+
+# Secrets
+config/token-map.txt
+.env
+*.pem
+*.key
+.accounts
+
+# Runtime
+*.beam
+erl_crash.dump
+*.ez
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/

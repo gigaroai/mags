@@ -1,0 +1,16 @@
+{
+  "name": "cortex-services",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cortex services — bridge relay and Meridian proxy",
+  "scripts": {
+    "bridge": "node bridge/index.js",
+    "bridge:dev": "CORTEX_URL=ws://localhost:4000/cortex/ws BRIDGE_TOKEN=bridge-CHANGEME node bridge/index.js",
+    "meridian": "node meridian/index.js",
+    "meridian:dev": "CORTEX_URL=ws://localhost:4000/cortex/ws MERIDIAN_TOKEN=meridian-CHANGEME node meridian/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "ws": "^8.16.0"
+  }
+}

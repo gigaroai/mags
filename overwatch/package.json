@@ -1,0 +1,13 @@
+{
+  "name": "overwatch",
+  "version": "0.1.0",
+  "description": "Claude Code wrapper — tmux-native, Cortex-connected, TOS compliant (wraps claude CLI, no SDK)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "CORTEX_URL=ws://localhost:4000/cortex/ws OVERWATCH_TOKEN=overwatch-alpha-CHANGEME node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
